@@ -49,7 +49,7 @@ output_dir = '/kaggle/working/'        # Update this path to where you want to s
 
 ### 3. Run the Training Procedure 
 
-You can choose whether to run the training procedure and whether to load the trained model locally or from Hugging Face's API.
+You can choose whether to run the training procedure and whether to load the trained model locally or from our HuggingFace's API. The API key is already provided in the code: ```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```
 
 
 ```python
