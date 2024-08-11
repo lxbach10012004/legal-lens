@@ -10,7 +10,8 @@ Our model, **LM_CRF_NER** , is a custom Language Model integrated with Condition
  
 - **Datasets:**  [LegalLensNER (HuggingFace)](https://huggingface.co/datasets/darrow-ai/LegalLensNER) and the private test set
  
-- **Performance on the Evaluation Set:** 
+- **Performance on the Evaluation Set:**
+
 | Language Model | Macro Precision | Macro Recall | Macro F1 | 
 | --- | --- | --- | --- | 
 | bert-base-cased | 0.8675 | 0.8904 | 0.8780 | 
