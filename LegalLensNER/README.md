@@ -82,4 +82,5 @@ warmup_proportion = 0.1
 
 ## Conclusion 
 
-Once you’ve configured the settings and data, you’re ready to run the code and generate the results!
+Once you’ve configured the settings and data, you’re ready to run the code and generate the results! 
+See the ```Methodology Description.pdf``` file for more details.
