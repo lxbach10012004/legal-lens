@@ -24,7 +24,16 @@ Our model, **LM_CRF_NER** , is a custom Language Model integrated with Condition
 
 ## Getting Started 
 
-To get started, follow the instructions below to set up your environment and run the model:
+- If your primary goal is to load the trained model and perform inference, you can directly use the `LegalLensNER-infer.ipynb notebook`. Simply specify the input data folder and ensure that it contains the **Test Set**: `testset_NER_LegalLens.xlsx`. The notebook is already provided with a private API to access our trained model on HuggingFace.
+
+
+```python
+# Files directory
+data_dir = '/kaggle/input/l-ner-data/' # Update this path with your data directory containing the 'testset_NER_LegalLens.xlsx' test set.
+```
+
+
+- If you wish to rerun the entire process, including both training and inference, please refer to the `LegalLensNER.ipynb` notebook and follow the instructions below:
 
 ### 1. Configure Settings 
 
@@ -83,4 +92,4 @@ warmup_proportion = 0.1
 ## Conclusion 
 
 Once you’ve configured the settings and data, you’re ready to run the code and generate the results! 
-See the ```Methodology Description.pdf``` file for more details.
+See the ```NERLens_Methodology_Description.pdf``` file for more details.
