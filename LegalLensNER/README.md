@@ -93,3 +93,6 @@ warmup_proportion = 0.1
 
 Once you’ve configured the settings and data, you’re ready to run the code and generate the results! 
 See the ```NERLens_Methodology_Description.pdf``` file for more details.
+
+## Acknowledgement 
+This implementation was modified from the [NER-BERT-CRF](https://github.com/Louis-udm/NER-BERT-CRF)  repository. Many thanks to the original authors for their contributions.
